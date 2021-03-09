@@ -194,6 +194,10 @@
         margin: 0;
     }*/
     
+    body {
+        margin: 0;
+    }
+    
     .brand {
         font-weight: normal;
         font-size: 60px;
