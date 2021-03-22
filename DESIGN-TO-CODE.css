@@ -64,17 +64,45 @@ input {
 }
 
 .search {
+    display: flex;
+    justify-content: flex-start;
     width: 50%;
 }
 
 .text {
     display: flex;
     align-items: center;
-    width: 8%
+    justify-content: flex-end;
+}
+
+.text-one {
+    margin-right: 20px;
+}
+
+.text-two {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 img {
     border-radius: 100%;
+}
+
+.prof {
+    display: flex;
+    margin-left: 10px;
+}
+
+.end {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pro {
+    margin-left: 10px;
 }
 
 .profile {
@@ -107,12 +135,12 @@ img {
 .repo {
     display: flex;
     margin-top: 1px;
-    margin: 6px;
+    margin-left: 15px;
     align-items: center
 }
 
 .dee {
-    margin: 3px;
+    margin: 4px;
     align-items: center;
 }
 
@@ -205,6 +233,46 @@ img {
     border-right-color: #d2d6dc;
     align-items: center;
     background-color: white;
+    margin-right: 10px;
+    width: 130px;
+}
+
+.green {
+    background-color: #def7ec;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    top: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lightgreen {
+    background-color: #5fc58d;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    top: 60%;
+}
+
+.grey {
+    background-color: #dfe1e6;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    top: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lightgrey {
+    background-color: #9fa6b2;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    top: 60%;
 }
 
 .corn {
@@ -229,9 +297,15 @@ img {
     padding: 24px;
 }
 
+.fey {
+    margin: 12px;
+}
+
 .combine {
     display: flex;
     flex-direction: column;
+    padding-right: 10px;
+    flex: 1;
 }
 
 .together {
@@ -286,10 +360,6 @@ img {
     justify-content: space-between;
     border-top: gray 200;
     border-bottom: 1px solid gray;
-    padding-right: 10px;
-}
-
-.combine {
     padding-right: 10px;
 }
 
@@ -357,7 +427,6 @@ body {
     justify-content: space-between;
     border-top: gray 200;
     border-bottom: 1px solid grey;
-    padding: 10px;
 }
 
 .hed {

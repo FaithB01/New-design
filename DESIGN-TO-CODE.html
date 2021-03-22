@@ -20,18 +20,22 @@
             <!--<img src="https://img.icons8.com/material-rounded/24/ffffff/search.png" />-->
             <input id="search" class=" placeholder" placeholder="Search projects" type="search" rel="search" />
         </div>
-        <div class="text">Documentation
-        </div>
-        <div class="text">Support
-        </div>
-        <!-- Profile -->
-        <div class="prof">
-            <img src="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=256&h=256&q=80" width="30" height="30" alt="" />
+        <div class="end">
+            <div class="text">
+                <div class="text-one">Documentation
+                </div>
+                <div class="text-two">Support
+                </div>
+            </div>
+            <!-- Profile -->
+            <div class="prof">
+                <img src="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=256&h=256&q=80" width="30" height="30" alt="" />
+            </div>
         </div>
     </header>
     <section class="row">
         <article class="story quarter">
-            <h1 class="article-title"></h1>
+            <!-- <h1 class="article-title"></h1>-->
             <div class="details">
                 <!-- Profile -->
                 <div class="profile">
@@ -66,14 +70,14 @@
                     2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1
                     1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z " clip-rule="evenodd " />
   </svg>
-                        <span>Pro Member</span>
+                        <span class="pro">Pro Member</span>
                     </div>
                     <div class="badge2">
                         <!--collection -->
                         <svg xmlns="http://www.w3.org/2000/svg " width="20 " height="20 " viewBox="0 0 20 20 " fill="currentColor ">
     <path d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a2 2 0 012-2h12a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4z " />
   </svg>
-                        <span>8 Projects</span>
+                        <span class="pro">8 Projects</span>
                     </div>
                 </div>
             </div>
@@ -103,7 +107,12 @@
                         <div class="min- ">
                             <div class="rightside">
                                 <span class="block ">
-                                <h3 class="hedi "><img src="https://img.icons8.com/material/24/26e07f/unchecked-radio-button--v2.png"/>Workcation</h3>
+                                <h3 class="hedi "><span aria-label="Running" class="green">
+                                    <div class="lightgreen"></div>
+                                </span>
+                                <!--<span class="green" ><div class="lightgreen" ></div></span>-->
+                                <div class="fey">Workcation</div>
+                                </h3>
                             </div>
                             <svg class="another " xmlns="http://www.w3.org/2000/svg " width="30 " height="20 ">
                     <path fill-rule="evenodd " clip-rule="evenodd " d="M8.99917 0C4.02996 0 0 4.02545 0 8.99143C0 12.9639 2.57853 16.3336 6.15489 17.5225C6.60518 17.6053 6.76927 17.3277 6.76927 17.0892C6.76927 16.8762 6.76153 16.3104 6.75711 15.5603C4.25372
@@ -113,24 +122,24 @@
                     11.9753 12.6363 12.7354 10.6318 12.9578C10.9545 13.2355 11.2423 13.7841 11.2423 14.6231C11.2423 15.8247 11.2313 16.7945 11.2313 17.0892C11.2313 17.3299 11.3937 17.6097 11.8501 17.522C15.4237 16.3303 18 12.9628 18 8.99143C18 4.02545 13.97
                     0 8.99917 0Z " fill="currentcolor " />
                   </svg>debbielewis/workcation
-                         </div>
+                        </div>
 
-                   </div>
+                    </div>
                     <!--meta info -->
                     <div class="meta ">
                         <p class="site ">
                             <span> Visit site
                      <span style="font-size:120%;color:yellow; ">&starf; </span>
-                                </span>
-                                </p>
-                                <p class="notes ">
-                                    <span>Laravel</span>
-                                    <span>&#xB7;</span>
-                                    <span>Last deploy 3h ago</span>
-                                    <span>&#xB7;</span>
-                                    <span>United states</span>
-                                </p>
-                            </div>
+                            </span>
+                        </p>
+                        <p class="notes ">
+                            <span>Laravel</span>
+                            <span>&#xB7;</span>
+                            <span>Last deploy 3h ago</span>
+                            <span>&#xB7;</span>
+                            <span>United states</span>
+                        </p>
+                    </div>
                 </li>
                 <li class="Workcation ">
                     <div class="flex items-center justify-between space-x-4 ">
@@ -138,7 +147,11 @@
                         <div class="min-w-0 space-y-3 ">
                             <div class="flex items-center space-x-3 ">
                                 <span class="block ">
-                    <h3 class="hedi "><img src="https://img.icons8.com/material/24/26e07f/unchecked-radio-button--v2.png"/>Easywire</h3>
+                    <h3 class="hedi "><span aria-label="Running" class="green">
+                        <div class="lightgreen"></div>
+                    </span>
+                                <div class="fey">Easywire</div>
+                                </h3>
                             </div>
                             <svg class="another " xmlns="http://www.w3.org/2000/svg " width="30 " height="20 ">
                     <path fill-rule="evenodd " clip-rule="evenodd " d="M8.99917 0C4.02996 0 0 4.02545 0 8.99143C0 12.9639 2.57853 16.3336 6.15489 17.5225C6.60518 17.6053 6.76927 17.3277 6.76927 17.0892C6.76927 16.8762 6.76153 16.3104 6.75711 15.5603C4.25372
@@ -155,23 +168,27 @@
                         <p class="site ">
                             <span>
                     Visit site <span style="font-size:120%;color:yellow; ">&starf;</span>
-                                </span>
-                                </p>
-                                <p class="notes ">
-                                    <span>NextJS</span>
-                                    <span>&#xB7;</span>
-                                    <span>Last deploy 6h ago</span>
-                                    <span>&#xB7;</span>
-                                    <span>United states</span>
-                                </p>
-                            </div>
+                            </span>
+                        </p>
+                        <p class="notes ">
+                            <span>NextJS</span>
+                            <span>&#xB7;</span>
+                            <span>Last deploy 6h ago</span>
+                            <span>&#xB7;</span>
+                            <span>United states</span>
+                        </p>
+                    </div>
                 </li>
                 <li class="Workcation ">
                     <div class="flex items-center justify-between space-x-4 ">
                         <div class="min-w-0 space-y-3 ">
                             <div class="flex items-center space-x-3 ">
                                 <span class="block ">
-                    <h3 class="hedi "><img src="https://img.icons8.com/material/24/26e07f/unchecked-radio-button--v2.png"/>Workflow</h3>
+                    <h3 class="hedi "><span aria-label="Running" class="green">
+                        <div class="lightgreen"></div>
+                    </span>
+                                <div class="fey">Workflow</div>
+                                </h3>
                             </div>
                             <svg class="another " xmlns="http://www.w3.org/2000/svg " width="30 " height="20 ">
                     <path fill-rule="evenodd " clip-rule="evenodd " d="M8.99917 0C4.02996 0 0 4.02545 0 8.99143C0 12.9639 2.57853 16.3336 6.15489 17.5225C6.60518 17.6053 6.76927 17.3277 6.76927 17.0892C6.76927 16.8762 6.76153 16.3104 6.75711 15.5603C4.25372
@@ -181,29 +198,33 @@
                     11.9753 12.6363 12.7354 10.6318 12.9578C10.9545 13.2355 11.2423 13.7841 11.2423 14.6231C11.2423 15.8247 11.2313 16.7945 11.2313 17.0892C11.2313 17.3299 11.3937 17.6097 11.8501 17.522C15.4237 16.3303 18 12.9628 18 8.99143C18 4.02545 13.97
                     0 8.99917 0Z " fill="currentcolor " />
                   </svg>debbielewis/workflow
-                </div>
+                        </div>
                     </div>
                     <div class="meta ">
                         <p class="site ">
                             <span>
                     Visit site <span style="font-size:120%;color:yellow; ">&starf;</span>
-                                </span>
-                                </p>
-                                <p class="notes ">
-                                    <span>Laravel</span>
-                                    <span>&#xB7;</span>
-                                    <span>Last deploy 4d ago</span>
-                                    <span>&#xB7;</span>
-                                    <span>United states</span>
-                                </p>
-                            </div>
+                            </span>
+                        </p>
+                        <p class="notes ">
+                            <span>Laravel</span>
+                            <span>&#xB7;</span>
+                            <span>Last deploy 4d ago</span>
+                            <span>&#xB7;</span>
+                            <span>United states</span>
+                        </p>
+                    </div>
                 </li>
                 <li class="Workcation ">
                     <div class="flex items-center justify-between space-x-4 ">
                         <div class="min-w-0 space-y-3 ">
                             <div class="flex items-center space-x-3 ">
                                 <span class="block ">
-                    <h3 class="hedi ">🔘KiteTail</h3>
+                    <h3 class="hedi "><span aria-label="Running" class="grey">
+                        <div class="lightgrey"></div>
+                    </span>
+                                <div class="fey">KiteTail</div>
+                                </h3>
                             </div>
                             <svg class="another " xmlns="http://www.w3.org/2000/svg " width="30 " height="20 ">
                     <path fill-rule="evenodd " clip-rule="evenodd " d="M8.99917 0C4.02996 0 0 4.02545 0 8.99143C0 12.9639 2.57853 16.3336 6.15489 17.5225C6.60518 17.6053 6.76927 17.3277 6.76927 17.0892C6.76927 16.8762 6.76153 16.3104 6.75711 15.5603C4.25372
@@ -219,16 +240,16 @@
                         <p class="site ">
                             <span>
                     Visit site <span style="font-size:120%;color:gray; ">&starf;</span>
-                                </span>
-                                </p>
-                                <p class="notes ">
-                                    <span>Laravel</span>
-                                    <span>&#xB7;</span>
-                                    <span>Last deploy 4d ago</span>
-                                    <span>&#xB7;</span>
-                                    <span>United states</span>
-                                </p>
-                            </div>
+                            </span>
+                        </p>
+                        <p class="notes ">
+                            <span>Laravel</span>
+                            <span>&#xB7;</span>
+                            <span>Last deploy 4d ago</span>
+                            <span>&#xB7;</span>
+                            <span>United states</span>
+                        </p>
+                    </div>
                 </li>
                 <li class="Workcation ">
                     <div class="flex items-center justify-between space-x-4 ">
@@ -236,7 +257,11 @@
                         <div class="min-w-0 space-y-3 ">
                             <div class="flex items-center space-x-3 ">
                                 <span class="block ">
-                    <h3 class="hedi "><img src="https://img.icons8.com/material/24/26e07f/unchecked-radio-button--v2.png"/>Talk Slides</h3>
+                    <h3 class="hedi "><span aria-label="Running" class="green">
+                        <div class="lightgreen"></div>
+                    </span>
+                                <div class="fey">Talk Slides</div>
+                                </h3>
                             </div>
                             <svg class="another " xmlns="http://www.w3.org/2000/svg " width="30 " height="20 ">
                     <path fill-rule="evenodd " clip-rule="evenodd " d="M8.99917 0C4.02996 0 0 4.02545 0 8.99143C0 12.9639 2.57853 16.3336 6.15489 17.5225C6.60518 17.6053 6.76927 17.3277 6.76927 17.0892C6.76927 16.8762 6.76153 16.3104 6.75711 15.5603C4.25372
@@ -255,16 +280,16 @@
                         <p class="site ">
                             <span>
                     Visit site <span style="font-size:120%;color:yellow; ">&starf;</span>
-                                </span>
-                                </p>
-                                <p class="notes ">
-                                    <span>Laravel</span>
-                                    <span>&#xB7;</span>
-                                    <span>Last deploy 3h ago</span>
-                                    <span>&#xB7;</span>
-                                    <span>United states</span>
-                                </p>
-                            </div>
+                            </span>
+                        </p>
+                        <p class="notes ">
+                            <span>Laravel</span>
+                            <span>&#xB7;</span>
+                            <span>Last deploy 3h ago</span>
+                            <span>&#xB7;</span>
+                            <span>United states</span>
+                        </p>
+                    </div>
                 </li>
                 <li class="Workcation ">
                     <div class="flex items-center justify-between space-x-4 ">
@@ -272,7 +297,11 @@
                         <div class="min-w-0 space-y-3 ">
                             <div class="flex items-center space-x-3 ">
                                 <span class="block ">
-                                    <h3 class="hedi "><img src="https://img.icons8.com/material/24/26e07f/unchecked-radio-button--v2.png"/>Personal Website</h3>
+                                    <h3 class="hedi "><span aria-label="Running" class="green">
+                                        <div class="lightgreen"></div>
+                                    </span>
+                                <div class="fey">Personal Website</div>
+                                </h3>
                             </div>
                             <svg class="another " xmlns="http://www.w3.org/2000/svg " width="20 " height="20 ">
                     <path fill-rule="evenodd " clip-rule="evenodd " d="M8.99917 0C4.02996 0 0 4.02545 0 8.99143C0 12.9639 2.57853 16.3336 6.15489 17.5225C6.60518 17.6053 6.76927 17.3277 6.76927 17.0892C6.76927 16.8762 6.76153 16.3104 6.75711 15.5603C4.25372
@@ -291,16 +320,16 @@
                         <p class="site ">
                             <span>
                     Visit site <span style="font-size:120%;color:gray; ">&starf;</span>
-                                </span>
-                                </p>
-                                <p class="notes ">
-                                    <span>NextJS</span>
-                                    <span>&#xB7;</span>
-                                    <span>Last deploy 6h ago</span>
-                                    <span>&#xB7;</span>
-                                    <span>United states</span>
-                                </p>
-                            </div>
+                            </span>
+                        </p>
+                        <p class="notes ">
+                            <span>NextJS</span>
+                            <span>&#xB7;</span>
+                            <span>Last deploy 6h ago</span>
+                            <span>&#xB7;</span>
+                            <span>United states</span>
+                        </p>
+                    </div>
                 </li>
 
                 <li class="Workcation ">
@@ -309,9 +338,13 @@
                         <div class="min-w-0 space-y-3 ">
                             <div class="flex items-center space-x-3 ">
                                 <span class="block ">
-                    <h3 class="hedi ">🔘Digest</h3>
-               
-                 
+                    <h3 class="hedi "><span aria-label="Running" class="grey">
+                        <div class="lightgrey"></div>
+                    </span>
+                                <div class="fey">Digest</div>
+                                </h3>
+
+
                             </div>
                             <svg class="another " xmlns="http://www.w3.org/2000/svg " width="30 " height="20 ">
                     <path fill-rule="evenodd " clip-rule="evenodd " d="M8.99917 0C4.02996 0 0 4.02545 0 8.99143C0 12.9639 2.57853 16.3336 6.15489 17.5225C6.60518 17.6053 6.76927 17.3277 6.76927 17.0892C6.76927 16.8762 6.76153 16.3104 6.75711 15.5603C4.25372
@@ -330,19 +363,19 @@
                             <span>
                     Visit site
                     <span style="font-size:120%;color:gray; ">&starf;</span>
-                                </span>
-                                <style>
+                            </span>
+                            <style>
 
-                                </style>
-                                </p>
-                                <p class="notes ">
-                                    <span>Laravel</span>
-                                    <span>&#xB7;</span>
-                                    <span>Last deploy 3h ago</span>
-                                    <span>&#xB7;</span>
-                                    <span>United states</span>
-                                </p>
-                            </div>
+                            </style>
+                        </p>
+                        <p class="notes ">
+                            <span>Laravel</span>
+                            <span>&#xB7;</span>
+                            <span>Last deploy 3h ago</span>
+                            <span>&#xB7;</span>
+                            <span>United states</span>
+                        </p>
+                    </div>
                 </li>
 
 
@@ -350,7 +383,7 @@
         <article class="story-quarter ">
             <!-- Activity feed -->
             <div class="act">
-                <h2 class="activity-feed ">Activity</h2>
+                <h4 class="activity-feed ">Activity</h4>
             </div>
 
             <div>
